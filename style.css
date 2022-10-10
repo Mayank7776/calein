@@ -1,0 +1,28 @@
+body{
+background-color: white;
+}
+.front-img{
+    margin-left: 13.5%;
+    width: 74%;
+    height: 640px;
+}
+.center-img{
+    width: 74%;
+    margin-left: 13.5%;
+}
+.nav-link active {
+ color: black;
+}
+/* media query */
+@media (max-width:1020px) {
+    .front-img {
+        margin-left: 13.5%;
+        width: 82%;
+        height: 453px;
+    }
+    .center-img {
+        width: 82%;
+        margin-left: 13.5%;
+    }
+
+}
